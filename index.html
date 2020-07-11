@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- meta settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- title -->
+    <title>Grades System</title>
+
+    <!-- javascript -->
+    <script src="mainJS.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="mainCSS.css">
+
+</head>
+<body>
+
+    <!-- titles -->
+    <h2>Grades System</h2>
+    <h4>Grades need to be between 1 to 100</h4>
+
+    <!-- header -->
+    <header>
+        <input type="text" id="insertgrade">
+        <input type="button" class="btn" id="insertbtn" value="insert" onclick="insert();">
+        <input type="button" class="btn" id="resetbutton" value="resert" onclick="reset();">
+        <p id="errorwindow"></p>
+    </header>
+
+    <!-- main -->
+    <main>
+        <section class="mainwrapper">
+            <ul>
+                <div id="avarage"></div>
+                <h3>avarage</h3>
+            </ul>
+            <ul>
+                <div id="highgrade"></div>
+                <h3>high grade</h3>
+            </ul>
+            <ul>
+                <div id="gradesnum"></div>
+                <h3>Number of Grades</h3>
+            </ul>
+            <ul>
+                <div id="lowgrade"></div>
+                <h3>low grade</h3>
+            </ul>    
+        </section>
+        <section class="list">
+            <h3>list of Grades:</h3>
+            <div id="gradeslist"></div>
+        </section>
+    </main>
+    
+</body>
+</html>

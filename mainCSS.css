@@ -1,0 +1,66 @@
+html {
+    font-family: Segoe UI;
+}
+
+.btn {
+    font-family: Segoe UI;
+    font-weight: bold;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 200;
+    margin: 5px 0 25px 0;
+}
+
+input {
+    font-family: Segoe UI;
+    text-align: center;
+    display: block;
+    border: 1px solid #345;
+    color: #333;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    height: 120px;
+    margin: 0 20% 0 20%;
+}
+
+#errorwindow {
+    margin: 0;
+    color: rgb(117, 19, 19);
+}
+
+main {
+    margin: 0 20% 0 20%;
+}
+
+.mainwrapper {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list {
+    text-align: left;
+    float: left;
+    margin-top: 50px;
+    margin-left: 9%;
+}
+
+#avarage {
+    font-weight: bold;
+}
+
+#lowgrade {
+    color: rgb(117, 19, 19);
+}
